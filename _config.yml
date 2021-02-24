@@ -4,8 +4,8 @@
 
 # Site
 title: Chain Space
-subtitle: ''
-description: ''
+subtitle: ' '
+description: '若我遇见你，事隔经年，我将如何致你'
 keywords:
 author: Chain
 language: zh-CN
@@ -103,7 +103,9 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:ChenChain/ChenChain.github.io.git
+  branch: page
 
 
 search:
