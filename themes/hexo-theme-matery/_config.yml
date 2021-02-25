@@ -204,7 +204,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: 大道至简
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -339,6 +339,16 @@ minivaline:
   # 下面是一个例子：
   backend: waline
   serverURL: https://waline.vercel.app
+
+#  评论插件
+#  <script src="https://utteranc.es/client.js"
+#  repo="[ENTER REPO HERE]"
+#  issue-term="pathname"
+#  label="utteranc_commit"
+#  theme="github-light"
+#  crossorigin="anonymous"
+#  async>
+#  </script>
 
 changyan:
   enable: false
@@ -589,8 +599,8 @@ background:
 # 说说 https://artitalk.js.org/
 artitalk:
   enable: true
-  appId: # xxxxx
-  appKey: # xxxxxx
+  appId: ##
+  appKey: ##
 
 # 哔哔功能配置
 # 登陆leancloud创建应用。进入应用后，点击创建 Class，将「 Class 名称」命名为 content
